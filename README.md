@@ -26,4 +26,11 @@ to serve file, locally, forever, on port `49202`
 $ quickfilehost filename.whatever --port 49202
 ```
 # installation
-not implemented yet
+with pip
+```
+$ pip install quickfilehost
+```
+with pipx
+```
+$ pipx install quickfilehost
+```
