@@ -5,7 +5,17 @@ run
 ```
 $ quickfilehost --help
 usage: fast-host [-h] [-p PORT] [-n] [-o] filename
-fast-host: error: the following arguments are required: filename
+
+Serves one file
+
+positional arguments:
+  filename
+
+options:
+  -h, --help       show this help message and exit
+  -p, --port PORT  port on which to serve file, defaults to 50232
+  -n, --network    whether the file is served on 127.0.0.1 or 0.0.0.0, defaults to 127.0.0.1
+  -o, --once       whether to stop server after one download, defaults to false
 ```
 or:
 
